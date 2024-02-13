@@ -736,7 +736,7 @@ btns:Button(
         local data = {
             ["username"] = 'Script Suggestion', -- Webhook name here
             ['content'] = '',
-            ["avatar_url"] = "https://cdn.discordapp.com/icons/1113798220162793542/a_2f06ff510febc5ff122a2efde813b5d7.png",
+            ["avatar_url"] = "",
             ["embeds"] = {
                 {
                     ["description"] = "**Suggestion Webhook**",
@@ -749,7 +749,7 @@ btns:Button(
                         }
                     },
                     ["footer"] = {
-                        ["text"] = "ping qrto pls",
+                        ["text"] = "ping Central",
                     },
                     ["timestamp"] = DateTime.now():ToIsoDate(),
                 }
