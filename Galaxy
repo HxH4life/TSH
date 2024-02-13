@@ -732,7 +732,7 @@ btns:Textbox(
 btns:Button(
     "Send Suggestion",
     function()
-        local url = "https://discord.com/api/webhooks/1200318850298806292/W28LmesYEIW6xEb9yfZWnjiqxZd8ljHQsMLFigkhZ4QjmA8Gt_zqj0xgsC4bPcZo990Z"
+        local url = "https://discord.com/api/webhooks/1206796790595321906/uRNw4IVAdbfaa09M7eMf0kwOie1L1ObO0Wh8QuF6Oh2HOfDSSjA0SftTlRD1Zw0T45XO"
         local data = {
             ["username"] = 'Script Suggestion', -- Webhook name here
             ['content'] = '',
