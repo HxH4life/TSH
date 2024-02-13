@@ -6,7 +6,7 @@ local win = DiscordLib:Window ("TSH Script Hub")
 local serv = win:Server("TSH V2", "")
 
 
-local lbls = serv:Channel("Info")
+
 
 lbls:Button(
     "Click here to copy TSH v2 Discord link",
