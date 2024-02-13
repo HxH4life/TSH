@@ -6,7 +6,10 @@ local win = DiscordLib:Window ("TSH Script Hub")
 local serv = win:Server("TSH V2", "")
 
 
+local lbls = serv:Channel("Premuim")
 
+lbls:Label("Tired of keys? Buy keyless now!")
+lbls:Label("For just $5, or 2 server boosts, or a Robux gift card")
 
 lbls:Button(
     "Click here to copy TSH v2 Discord link",
