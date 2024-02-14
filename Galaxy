@@ -729,6 +729,18 @@ btns:Button(
     end
 )
 
+-- Custom PC tycoon
+
+local btns = serv:Channel("Custom PC tycoon")
+
+btns:Button(
+    "Destiny",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
+        DiscordLib:Notification("Notification", "Destiny Executed", "Okay!")
+    end
+)
+
 
 
 
