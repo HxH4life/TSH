@@ -719,17 +719,17 @@ btns:Button(
 
 -- Prison life
 
+
 local btns = serv:Channel("Prison life")
+
 
 btns:Button(
     "Tiger admin",
     function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin"))()"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin'))()
         DiscordLib:Notification("Notification", "Tiger admin Executed", "Okay!")
     end
 )
-
-btns:Seperator()
 
 
 
