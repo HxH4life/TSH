@@ -719,9 +719,9 @@ btns:Button(
 
 -- Prison life
 
-
 local btns = serv:Channel("Prison life")
 
+btns:Label("Admin permissions.")
 
 btns:Button(
     "Tiger admin",
