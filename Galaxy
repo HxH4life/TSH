@@ -716,6 +716,21 @@ btns:Button(
         DiscordLib:Notification("Notification", "Xrollu Hub Executed", "Okay!")
     end
 )
+
+btns:Seperator()
+
+-- Prison life
+
+btns:Button(
+    "Tiger admin",
+    function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin"))()", true))()
+        DiscordLib:Notification("Notification", "Tiger admin Executed!", "Okay!")
+    end
+)
+
+
+
 local btns = serv:Channel("Suggestion")
 
 btns:Label("Send us suggestions we will add it.")
