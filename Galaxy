@@ -717,8 +717,6 @@ btns:Button(
     end
 )
 
-btns:Seperator()
-
 -- Prison life
 
 btns:Button(
