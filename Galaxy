@@ -729,6 +729,12 @@ btns:Button(
     end
 )
 
+btns:Seperator()
+
+
+
+
+
 
 
 local btns = serv:Channel("Suggestion")
