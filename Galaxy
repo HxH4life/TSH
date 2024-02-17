@@ -1,5 +1,5 @@
 local DiscordLib =
-    loadstring(game:HttpGet "https://pastebin.com/raw/suZRMnff")()
+    loadstring(game:HttpGet "https://pastebin.com/iNcmSxEU")()
 
 local win = DiscordLib:Window ("TSH Script Hub")
 
