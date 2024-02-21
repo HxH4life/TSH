@@ -1,792 +1,269 @@
-local DiscordLib =
-    loadstring(game:HttpGet "https://pastebin.com/raw/suZRMnff")()
-
-local win = DiscordLib:Window ("TSH Script Hub")
-
-local serv = win:Server("TSH V2", "")
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/rodus", true))()
+CreateMain("TSH")
+
+-- BF
+CreateTab("Blox Fruits")
+
+CreateButton(tab['Blox Fruits'], "MTriet Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
+    DiscordLib:Notification("Notification", "MTriet Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['Blox Fruits'], "Vector Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
+    DiscordLib:Notification("Notification", "Vector Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['Blox Fruits'], "W-Azure V2", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    DiscordLib:Notification("Notification", "W-azure v2 Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['Blox Fruits'], "Zekrom X", "Blox Fruits Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
+    DiscordLib:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
+end)
+
+CreateButton(tab['Blox Fruits'], "Redz Hub", "Blox Fruits Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/Main/main/redz9999"))()
+    DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
+end)
+
+-- PS99
+CreateTab("PS99")
+
+CreateButton(tab['PS99'], "Redz Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
+    DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['PS99'], "Sky Hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
+    DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['PS99'], "Zap Hub" function()
+    loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
+    DiscordLib:Notification("Notification", "Zap Hub Executed", "Okay!")
+end)
+
+-- BladeBall
+CreateTab("BladeBall")
+
+CreateButton(tab['BladeBall'], "Bedol Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua"))()
+    DiscordLib:Notification("Notification", "Bedol Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "Freya Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Athenamikaela/Freya/main/Freya%20by%20lenny"))()
+    DiscordLib:Notification("Notification", "Freya Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['Blox Fruits'], "Symphony Hub",, function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/scrFgv9p"))()
+    DiscordLib:Notification("Notification", "Symphony Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "EminX Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EminenceXLua/Blade-your-Balls/main/BladeBallLoader.lua",true))()
+    DiscordLib:Notification("Notification", "EminX Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "FFJ Hub",, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+    DiscordLib:Notification("Notification", "FFJ Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "Neva Hub",, function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
+    DiscordLib:Notification("Notification", "Neva Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "JoeBiden Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JoeBidenhub/JoeBidenZ-Hub-Perfect-Parry/main/Blade%20Ball%20Full%20Version", true))()
+    DiscordLib:Notification("Notification", "JoeBiden Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "Corolla Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7190000/Corolla-Hub/main/ch.lua"))()
+    DiscordLib:Notification("Notification", "Corolla Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "VerCel Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AC447724/Blade-Ball/main/c5xkvercelv5.lua.txt"))()
+    DiscordLib:Notification("Notification", "VerCel Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "Xzei Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/XZEI_HUB-_BLADEBALL/main/XZEI_HUBX.txt"))()
+    DiscordLib:Notification("Notification", "Xzei Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "Yuta Hub", , function()
+    loadstring(game:HttpGet('https://pastefy.app/FLqD3uSC/raw'))()
+    DiscordLib:Notification("Notification", "Yuta Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BladeBall'], "Cozmic DemonZ Hub", , function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/RealGOODNINJA/ZaaaIsTheGoat/main/HiZaaaa'))()
+    DiscordLib:Notification("Notification", "Cozmic DemonZ Hub Executed", "Okay!")
+end)
+
+
+-- TSB
+CreateTab("TSB")
+
+CreateButton(tab['TSB'], "Xtrey hub",, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
+    DiscordLib:Notification("Notification", "Xtrey Hub Executed", "Okay!")
+end)
 
+CreateButton(tab['TSB'], "Nex Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
+    DiscordLib:Notification("Notification", "Nex Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['TSB'], "Nicuse Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
+    DiscordLib:Notification("Notification", "Nicuse Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['TSB'], "Beamed Ware Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
+    DiscordLib:Notification("Notification", "Beamed Ware Hub Executed", "Okay!")
+end)
 
-local lbls= serv:Channel("info")
-
-
-lbls:Button(
-    "Click here to copy TSH v2 Discord link",
-    function()
-        setclipboard("https://discord.gg/gxNksJcD")
-        DiscordLib:Notification("Notification", "Discord Link Copied", "Okay!")
-    end
-)
-
-lbls:Label("Join Our server we will help u to get key for all script in hub")
-lbls:Label("Script Hub Made By TSH Hub Devs")
-
-local btns = serv:Channel("Blox fruit")
-
-btns:Label("These Scripts Doesnt Have Any Key System")
-
-btns:Button(
-    "Zekrom X Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe", true))()
-        DiscordLib:Notification("Notification", "Zekrom X Hub Executed!", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Redz Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
-        DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Vector Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tuxoz/VectorHub/main/MBPC"))()
-        DiscordLib:Notification("Notification", "Vector Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "MTriet Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
-        DiscordLib:Notification("Notification", "MTriet Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Domadic Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/Domadichub/NottoGay/Start.ranscript"))()
-        DiscordLib:Notification("Notification", "Domadic Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "W-azure v2 Hub",
-    function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-        DiscordLib:Notification("Notification", "W-azure v2 Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "ScriptBlox Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Script-Blox/Script/main/Script-Blox'))()
-        DiscordLib:Notification("Notification", "ScriptBlox Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Fai Fao Hub",
-    function()
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua")()
-        DiscordLib:Notification("Notification", "Fai Fao Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Fai Fao Hub v2",
-    function()
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao-Ver2.lua")()
-        DiscordLib:Notification("Notification", "Fai Fao Hub v2 Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Makori Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Domadicoof/Domadicoof/main/NewHubX.txt"))()
-        DiscordLib:Notification("Notification", "Makori Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Wolf Hub",
-    function()
-        loadstring(game:HttpGet('https://link.trwxz.com/LS-Wolf-Hub'))()
-        DiscordLib:Notification("Notification", "Wolf Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Annie Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))()
-        DiscordLib:Notification("Notification", "Annie Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Pado Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
-        DiscordLib:Notification("Notification", "Pado Hub Executed", "Okay!")
-    end
-)
-
--- Blox fruit but key 
-
-btns:Label("These scripts has key")
-
-btns:Button(
-    "Raito hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
-        DiscordLib:Notification("Notification", "Raito Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "HoHo Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-        DiscordLib:Notification("Notification", "HoHO Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Muruko Hub",
-    function()
-        loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-        DiscordLib:Notification("Notification", "Muruko Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Hirimi Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hirimii/X-Version/main/LoaderX.lua"))()
-        DiscordLib:Notification("Notification", "Hirimi Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Perd Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/PerdHub/Blosfruitscript/main/PerdLoader"))()
-        DiscordLib:Notification("Notification", "Perd Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Flash Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/FlashLoader"))()
-        DiscordLib:Notification("Notification", "Flash Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Specialized Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/specilaizes/Special/main/SpecialHub'))()
-        DiscordLib:Notification("Notification", "Specialized Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Zen Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zenhubnextgen/main/Loader", true))()
-        DiscordLib:Notification("Notification", "Zen Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Alchemy Hub",
-    function()
-        v=1;loadstring(game:HttpGet("https://alchemyhub.xyz/v2"))()
-        DiscordLib:Notification("Notification", "Alchemy Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Blacktrap Hub",
-    function()
-        loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
-        DiscordLib:Notification("Notification", "Blacktrap Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Relz Hub",
-    function()
-        loadstring(game:HttpGet('https://pastebin.com/raw/bcekZjmz'))()
-        DiscordLib:Notification("Notification", "Relz Hub Executed", "Okay!")
-    end
-)
-
--- Pet simulator 99
-
-local btns = serv:Channel("Pet Sim 99")
-
-btns:Label("All scripts are safe and checked.")
-
-btns:Button(
-    "Redz Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua"))()
-        DiscordLib:Notification("Notification", "Redz Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Sky Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua'))();
-        DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Zap Hub",
-    function()
-        loadstring(game:HttpGet('https://zaphub.xyz/Exec'))()
-        DiscordLib:Notification("Notification", "Zap Hub Executed", "Okay!")
-    end
-)
-
--- Blade Ball
-
-local btns = serv:Channel("Blade Ball")
-
-btns:Button(
-    "Bedol Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/nqxlOfc/Loaders/main/Blade_Ball.lua"))()
-        DiscordLib:Notification("Notification", "Bedol Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Freya Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Athenamikaela/Freya/main/Freya%20by%20lenny"))()
-        DiscordLib:Notification("Notification", "Freya Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Symphony Hub",
-    function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/scrFgv9p"))()
-        DiscordLib:Notification("Notification", "Symphony Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "EminX Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EminenceXLua/Blade-your-Balls/main/BladeBallLoader.lua",true))()
-        DiscordLib:Notification("Notification", "EminX Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "FFJ Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
-        DiscordLib:Notification("Notification", "FFJ Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Neva Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2'))()
-        DiscordLib:Notification("Notification", "Neva Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "JoeBiden Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JoeBidenhub/JoeBidenZ-Hub-Perfect-Parry/main/Blade%20Ball%20Full%20Version", true))()
-        DiscordLib:Notification("Notification", "JoeBiden Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Corolla Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/7190000/Corolla-Hub/main/ch.lua"))()
-        DiscordLib:Notification("Notification", "Corolla Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "VerCel Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AC447724/Blade-Ball/main/c5xkvercelv5.lua.txt"))()
-        DiscordLib:Notification("Notification", "VerCel Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Xzei Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/gclich/XZEI_HUB-_BLADEBALL/main/XZEI_HUBX.txt"))()
-        DiscordLib:Notification("Notification", "Xzei Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Yuta Hub",
-    function()
-        loadstring(game:HttpGet('https://pastefy.app/FLqD3uSC/raw'))()
-        DiscordLib:Notification("Notification", "Yuta Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Cozmic DemonZ Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/RealGOODNINJA/ZaaaIsTheGoat/main/HiZaaaa'))()
-        DiscordLib:Notification("Notification", "Cozmic DemonZ Hub Executed", "Okay!")
-    end
-)
-
--- The Strongest Battlegrounds
-
-local btns = serv:Channel("Strongest Battlegrounds")
-
-btns:Button(
-    "Xtrey10x Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/saitama"))()
-        DiscordLib:Notification("Notification", "Xtrey10x Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Nex Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
-        DiscordLib:Notification("Notification", "Nex Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Nicuse Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/SaitamaBattlegrounds.lua"))()
-        DiscordLib:Notification("Notification", "Nicuse Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Beamed Ware Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
-        DiscordLib:Notification("Notification", "Beamed Ware Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Reaper Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
-        DiscordLib:Notification("Notification", "Reaper hub Executed", "Okay!")
-    end
-)
-
--- Anime Champ Sim
-
-local btns = serv:Channel("Anime Champ Sim")
-
-btns:Button(
-    "Sky Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua"))()
-        DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Fazium Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
-        DiscordLib:Notification("Notification", "Fazium Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Muimi Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/bunny42312/script/main/acs"))()
-        DiscordLib:Notification("Notification", "Muimi hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Magenta Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Odrexyo/Script/main/Loader.lua"))()
-        DiscordLib:Notification("Notification", "Magenta Hub Executed", "Okay!")
-    end
-)
-
--- King Legacy
-
-local btns = serv:Channel("King Legacy")
-
-btns:Button(
-    "Hyper Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
-        DiscordLib:Notification("Notification", "Hyper HubExecuted", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Zen Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zenhubnextgen/main/Loader", true))()
-        DiscordLib:Notification("Notification", "Zen Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Adel Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
-        DiscordLib:Notification("Notification", "Adel Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Black Trap Hub",
-    function()
-        loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
-        DiscordLib:Notification("Notification", "Black Trap Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Dragonic Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
-        DiscordLib:Notification("Notification", "Dragonic Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "HoHo Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-        DiscordLib:Notification("Notification", "HoHo Hub Executed", "Okay!")
-    end
-)
-
--- Bee Swarm Sim
-
-local btns = serv:Channel("Bee Swarm Sim")
-
-btns:Button(
-    "Dragonic Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
-        DiscordLib:Notification("Notification", "Dragonic Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Kometa Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/brokensamsung/Kometa/main/Kometa%20V2.lua'))()
-        DiscordLib:Notification("Notification", "Kometa Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Raito Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
-        DiscordLib:Notification("Notification", "Raito Hub Executed", "Okay!")
-    end
-)
-
--- Death ball
-
-local btns = serv:Channel("Death Ball")
-
-btns:Label("All Death ball script has key.")
-
-btns:Button(
-    "Infinix Hub",
-    function()
-        loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
-        DiscordLib:Notification("Notification", "Infinix Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "FFJ Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
-        DiscordLib:Notification("Notification", "FFJ Hub Executed", "Okay!")
-    end
-)
-
--- Mm2
-
-local btns = serv:Channel("Mm2")
-
-btns:Button(
-    "Lunar Hub (no key)",
-    function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cafdac8cf3c413e2aba68641d6247547.lua"))()
-        DiscordLib:Notification("Notification", "Lunar hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Symphony Hub (key)",
-    function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/scrFgv9p"))()
-        DiscordLib:Notification("Notification", "Symphony Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Owl Hub (no key)",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-        DiscordLib:Notification("Notification", "Owl Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Kidachi Hub (key)",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
-        DiscordLib:Notification("Notification", "Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Auto Coin (No key)",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/mm2'))();
-        DiscordLib:Notification("Notification", "Executed", "Okay!")
-    end
-)
-
--- Build a boat
-
-local btns = serv:Channel("Build a boat")
-
-btns:Button(
-    "Vynixius Hub",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Loader.lua"))()
-        DiscordLib:Notification("Notification", "Vynixius Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Noovster Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/NooVster/v1.1/main/Source'))()
-        DiscordLib:Notification("Notification", "Noovster Hub Executed", "Okay!")
-    end
-)
-
-btns:Seperator()
-
-btns:Button(
-    "Xrollu Hub",
-    function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
-        DiscordLib:Notification("Notification", "Xrollu Hub Executed", "Okay!")
-    end
-)
-
--- Prison life
-
-local btns = serv:Channel("Prison life")
-
-btns:Button(
-    "Tiger admin",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/Tigeradmin",true))()
-        DiscordLib:Notification("Notification", "Tiger admin Executed", "Okay!")
-    end
-)
-
--- Custom PC tycoon
-
-local btns = serv:Channel("Custom PC tycoon")
-
-btns:Button(
-    "Destiny",
-    function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
-        DiscordLib:Notification("Notification", "Destiny Executed", "Okay!")
-    end
-)
-
-
-
-
-local btns = serv:Channel("Suggestion")
-
-btns:Label("Send us suggestions we will add it.")
-
-btns:Textbox(
-    "Suggestion",
-    "text your suggestion here..",
-    true,
-    function(Value)
-        Text = Value
-    end
-)
-
-btns:Button(
-    "Send Suggestion",
-    function()
-        local url = "https://discord.com/api/webhooks/1206796790595321906/uRNw4IVAdbfaa09M7eMf0kwOie1L1ObO0Wh8QuF6Oh2HOfDSSjA0SftTlRD1Zw0T45XO"
-        local data = {
-            ["username"] = 'Script Suggestion', -- Webhook name here
-            ['content'] = '',
-            ["avatar_url"] = "",
-            ["embeds"] = {
-                {
-                    ["description"] = "**Suggestion Webhook**",
-                    ["color"] = tonumber(2303786), -- color id        
-                    ["type"] = "rich",
-                    ["fields"] =  {
-                        {
-                            ["name"] = "The Suggestion",
-                            ["value"] = ''..Text,
-                        }
-                    },
-                    ["footer"] = {
-                        ["text"] = "ping Central",
-                    },
-                    ["timestamp"] = DateTime.now():ToIsoDate(),
-                }
-            },
-        }
-        local newdata = game:GetService("HttpService"):JSONEncode(data)
-        local headers = {["content-type"] = "application/json"}
-        request = http_request or request or HttpPost or syn.request
-        local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-        request(abcdef)
-    end
-)
+CreateButton(tab['TSB'], "Reaper Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
+    DiscordLib:Notification("Notification", "Reaper hub Executed", "Okay!")
+end)
+
+
+-- AnimeChampSim
+CreateTab("AnimeChampSim")
+
+CreateButton(tab['AnimeChampSim'], "Sky Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYHUB/main/WL.lua"))()
+    DiscordLib:Notification("Notification", "Sky Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['AnimeChampSim'], "Fazium Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+    DiscordLib:Notification("Notification", "Fazium Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['AnimeChampSim'], "Muimi Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bunny42312/script/main/acs"))()
+    DiscordLib:Notification("Notification", "Muimi hub Executed", "Okay!")
+end)
+
+CreateButton(tab['AnimeChampSim'], "Magenta Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Odrexyo/Script/main/Loader.lua"))()
+    DiscordLib:Notification("Notification", "Magenta Hub Executed", "Okay!")
+end)
+
+
+-- KingLegacy
+CreateTab("KingLegacy")
+
+CreateButton(tab['KingLegacy'], "Hyper Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua"))()
+    DiscordLib:Notification("Notification", "Hyper HubExecuted", "Okay!")
+end)
+
+CreateButton(tab['KingLegacy'], "Zen Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zenhubtop/zenhubnextgen/main/Loader", true))()
+    DiscordLib:Notification("Notification", "Zen Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['KingLegacy'], "Adel Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+    DiscordLib:Notification("Notification", "Adel Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['KingLegacy'], "Black Trap Hub", function()
+    loadstring(game:HttpGet('https://btteam.net/scripts-auth/', true))()
+    DiscordLib:Notification("Notification", "Black Trap Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['KingLegacy'], "Dragonic Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
+    DiscordLib:Notification("Notification", "Dragonic Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['KingLegacy'], "HoHo Hub",  function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+    DiscordLib:Notification("Notification", "HoHo Hub Executed", "Okay!")
+end)
+
+
+-- BeeSwarmSim
+CreateTab("BeeSwarmSim")
+
+CreateButton(tab['BeeSwarmSim'], "Dragonic Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Coemssuw8a/Dragonic-HUB/main/Protected_4928151334798917.lua.txt",true))()
+    DiscordLib:Notification("Notification", "Dragonic Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BeeSwarmSim'], "Kometa Hub", , function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/brokensamsung/Kometa/main/Kometa%20V2.lua'))()
+    DiscordLib:Notification("Notification", "Kometa Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['BeeSwarmSim'], "Raito Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+    DiscordLib:Notification("Notification", "Raito Hub Executed", "Okay!")
+end)
+
+
+-- DeathBall
+CreateTab("DeathBall")
+
+CreateButton(tab['DeathBall'], "Infinix Hub", , function()
+    loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua",true))()
+    DiscordLib:Notification("Notification", "Infinix Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['DeathBall'], "FFJ Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+    DiscordLib:Notification("Notification", "FFJ Hub Executed", "Okay!")
+end)
+
+
+-- MM2
+CreateTab("MurderMystery2")
+
+CreateButton(tab['MurderMystery2'], "Lunar Hub", , function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cafdac8cf3c413e2aba68641d6247547.lua"))()
+    DiscordLib:Notification("Notification", "Lunar hub Executed", "Okay!")
+end)
+
+CreateButton(tab['MurderMystery2'], "Symphony Hub", , function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/scrFgv9p"))()
+    DiscordLib:Notification("Notification", "Symphony Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['MurderMystery2'], "Owl Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+    DiscordLib:Notification("Notification", "Owl Hub Executed", "Okay!")
+end)
+
+CreateButton(tab['MurderMystery2'], "Kidachi Hub", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KidichiHB/Kidachi/main/Scripts/MM2_V2"))()
+    DiscordLib:Notification("Notification", "Executed", "Okay!")
+end)
+
+CreateButton(tab['MurderMystery2'], "Auto Coin",, function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraScript/Script/main/mm2'))();
+    DiscordLib:Notification("Notification", "Executed", "Okay!")
+end)
+
+
+-- LegendsOfSpeed
+CreateTab("LOS")
+
+CreateButton(tab['LOS'], "LOS Script", , function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ReeAndArceus/Legends-Of-Speed-Gui/main/Gui"))()
+    DiscordLib:Notification("Notification", "Executed", "Okay!")
+end)
